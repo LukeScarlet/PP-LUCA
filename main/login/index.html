@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../assets/Learn ez.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+    <header>
+
+        <img src="../../assets/Learn ez.png" alt="Logo do aplicativo" class="logo">
+        
+        <div class="topnav" id="myTopnav">
+          <a href="../inicio/index.html">Página Inicial</a>
+          <a href="../contato/index.html">Contato</a>
+          <a href="../sobre/index.html">Sobre</a>
+          <a href="../recomendacoes/index.html">Recomendações</a>
+          <a href="../registro/registro.html">Registro</a>
+          <a href="../login/index.html" class="active">Login</a>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+          <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <h1 class="h1">Login</h1>
+
+      </header> 
+
+      <section class="welcome-section">
+        <h1>LearnEZ!</h1>
+        <p>Já possui uma conta conosco? Faça seu login aqui</p>
+      </section>
+
+    <form action="#" class="registro1" >
+        <label for="fname" class="email_escrito"><strong>EMAIL:</strong></label><br>
+        <input type="text" id="email" name="email1" class="texto_email"><br>
+ 
+        <label for="lname" class="senha_escrito"><strong>SENHA:</strong></label><br>
+        <input type="password" id="senha" name="senha1" class="texto_senha" maxlength="15"><br><br>
+ 
+        <button onclick="handleSubmit(event)" class="botao1">Login</button>
+       
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
