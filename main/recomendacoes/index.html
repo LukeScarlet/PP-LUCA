@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnEZ</title>
+  
+  <link rel="icon" href="../../assets/Learn ez.png" type="image/png">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+  <header>
+    <img src="../../assets/Learn ez.png" alt="Logo do aplicativo" class="logo">
+    <div class="topnav" id="myTopnav">
+      <a href="../inicio/index.html  ">Página Inicial</a>
+      <a href="../contato/index.html">Contato</a>
+      <a href="../sobre/index.html">Sobre</a>
+      <a href="../recomendacoes/index.html" class="active">Recomendações</a>
+      <a href="../registro/registro.html">Registro</a>
+      <a href="../login/index.html">Login</a>
+    </div>
+    <h1 class="h1">Recomendações</h1>
+  </header>
+
+  <button class="floating-btn" id="showFormButton">+</button>
+
+  <main>  
+
+    <section class="welcome-section">
+      <p>Compartilhe aqui suas recomendações com a comunidade.</p>
+      <hr>
+    </section>
+
+    <!-- Post com imagem -->
+    <div id="posts"></div>
+
+    
+  
+  </main>
+
+  <div id="formContainer" class="form-container" style="display: none;">
+    <button id="closeFormButton" class="close-button">&times;</button>
+    <form>
+      <h2>Novo post</h2>
+    
+      <label for="name">Título:</label>
+      <input type="text" id="titulo" name="name" required>
+    
+      <label for="message">Mensagem: (300*)</label>
+      <textarea id="mensagem" name="message" rows="4" required></textarea>
+
+      <label for="file">Imagem: </label>
+      <input type="file" id="file" name="file">
+
+      <button type="submit" onclick="postar(event)">Enviar</button>
+    
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

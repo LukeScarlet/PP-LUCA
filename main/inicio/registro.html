@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <header>
+
+        <img src="../../assets/Learn ez.png" alt="Logo do aplicativo" class="logo">
+        
+        <div class="topnav" id="myTopnav">
+          <a href="./index.html">Página Inicial</a>
+          <a href="../contato/index.html">Contato</a>
+          <a href="../sobre/index.html">Sobre</a>
+          <a href="../minijogos/index.html">Mini Jogos</a>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+          <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+      </header> 
+
+    <form action="#" class="registro1" >
+        <label for="fname" class="email_escrito">EMAIL:</label><br>
+        <input type="text" id="email" name="email1" class="texto_email"><br>
+ 
+        <label for="lname" class="senha_escrito">SENHA:</label><br>
+        <input type="password" id="senha" name="senha1" class="texto_senha" maxlength="15"><br><br>
+ 
+        <button onclick="handleSubmit(event)" class="botao1">Registrar</button>
+       
+    </form>
+</body>
+</html>
