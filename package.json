@@ -7,9 +7,17 @@
     "mysql2": "^3.10.1",
     "nodemon": "^3.1.4",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
+    "swagger-ui-express": "^5.0.1",
+    "ws": "^8.18.0"
   },
   "scripts": {
     "start": "nodemon src/server.js"
-  }
+  },
+  "name": "pp-luca",
+  "version": "1.0.0",
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

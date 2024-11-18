@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url("../images/background.png");
+    background: url("../img/background.png");
     color: #000000;
   }
   
@@ -124,7 +124,7 @@ body {
   .post h2 {
     font-size: 24px;
       margin-bottom: 10px;
-      color: #000000;
+      color: #333;
   }
   .post p {
     line-height: 1.6;
@@ -143,7 +143,7 @@ body {
     bottom: 20px;
     right: 20px;
     background-color: #12dda0;
-    color: rgb(255, 255, 255);
+    color: white;
     border: none;
     padding: 15px 20px;
     border-radius: 80%;
@@ -189,7 +189,7 @@ body {
 
   .form-container button {
     background-color: #12dda0;
-    color: rgb(255, 255, 255);
+    color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -217,7 +217,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1); /* Adicionar fundo ao passar o mouse */
   }
 
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -249,7 +249,6 @@ body {
     font-weight: 600;
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: white;
 }
 
 .login__form {
@@ -263,14 +262,14 @@ body {
     padding: 15px;
     font-size: 0.85rem;
     font-weight: 600;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #121212;
+    color: #f2f2f2;
     outline: none;
     border-radius: 5px;
 }
 
 .login__input:focus {
-    outline: 2px solid #ffffff;
+    outline: 2px solid #f2f2f2;
 }
 
 .login__button {
@@ -279,13 +278,13 @@ body {
     border-radius: 5px;
     font-size: 0.85rem;
     font-weight: 700;
-    background-color: #12dda0;
+    background-color: #ddd;
     cursor: pointer;
-    color: #ffffff;
+    color: #121212;
 }
 
 .login__button:hover {
-    background-color: #818181;
+    background-color: #fff;
 }
 
 .chat {

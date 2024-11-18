@@ -8,6 +8,7 @@
   <link rel="icon" href="../../assets/Learn ez.png" type="image/png">
   <link rel="stylesheet" href="../../style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
 
 </head>
 <body>
@@ -17,10 +18,10 @@
 
     <div class="topnav" id="myTopnav">
       <a href="../inicio/index.html">Página Inicial</a>
-      <a href="../contato/index.html" class="active">Contato</a>
+      <a href="../contato/index.html">Contato</a>
       <a href="../sobre/index.html">Sobre</a>
       <a href="../recomendacoes/index.html">Recomendações</a>
-      <a href="../chats/index.html">Chats</a>
+      <a href="../chats/index.html"class="active">Chats</a>
       <a href="../registro/registro.html">Registro</a>
       <a href="../login/index.html">Login</a>
 
@@ -29,19 +30,37 @@
       </a>
     </div>
 
-    <h1 class="h1">Contato</h1>
+    <h1 class="h1">Chats</h1>
   
   </header>
   
   <main>
 
-    <section class="start-section">
-      <h3>Nossos contatos:</h3>
-      <p>E-mail: <u>learnez@gmail.com</u></p>
-      <p>Némero: <u>51 12345-6789</u></p>
-      <p>Instagram: <u>learnez_brasil</u></p>
-    </section>
-  
+    <section class="container">
+
+      <section class="login">
+          <h2>Login</h2>
+          <form class="login__form">
+              <input type="text" class="login__input" placeholder="Seu nome" required />
+              <button type="submit" class="login__button">Entrar</button>
+          </form>
+      </section>
+
+      <section class="chat">
+          <section class="chat__messages">
+          
+          </section>
+
+          <form class="chat__form">
+              <input type="text" class="chat__input" placeholder="Digite uma mensagem" required />
+              <button type="submit" class="chat__button">
+                  <span class="material-symbols-outlined">send</span>
+              </button>
+          </form>
+      </section>
+
+  </section> 
+
   </main>
 
   <script src="script.js"></script>
