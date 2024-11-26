@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", function () {
+  if (localStorage.getItem('isLoggedIn') !== 'true') {
+      window.location.href = "./login/index.html";
+  }
+});
+
 /* CRIACAO DE VARIAVEIS */
 
 let button1 = document.getElementById('botao1')

@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", function () {
+    if (localStorage.getItem('isLoggedIn') !== 'true') {
+        window.location.href = "./login/index.html";
+    }
+});
+
 async function getPosts() {
     const images = 'http://localhost:3005/uploads/';
 

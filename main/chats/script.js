@@ -1,3 +1,11 @@
+// obrigatoriedade do login para acessar o site
+
+document.addEventListener("DOMContentLoaded", function () {
+    if (localStorage.getItem('isLoggedIn') !== 'true') {
+        window.location.href = "./login/index.html";
+    }
+});
+
 // login elements
 const login = document.querySelector(".login")
 const loginForm = login.querySelector(".login__form")

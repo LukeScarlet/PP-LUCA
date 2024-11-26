@@ -25,6 +25,8 @@ async function handleSubmit(event) {
     let content = await response.json();  
    
     if(content.success){
+        localStorage.setItem('isLoggedIn', 'true');
+
         alert("Sucesso")
             window.location.href = "../inicio/index.html";
     }else{
